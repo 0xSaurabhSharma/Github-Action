@@ -1,3 +1,5 @@
 First change in dev => no ci triggered
 
-Second change in dev
+Second change in dev => no ci triggered
+
+Third: push on any =>
