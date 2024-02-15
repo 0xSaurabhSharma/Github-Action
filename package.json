@@ -1,0 +1,15 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "learning multiple cicd on same repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "0xSaurabhSharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
