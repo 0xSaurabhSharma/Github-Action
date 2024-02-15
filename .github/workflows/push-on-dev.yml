@@ -2,7 +2,8 @@ name: Push On Dev Branch 🐧
 run-name: ${{ github.actor }} is push on Dev 🚀
 on:
   push:
-    branches: [ dev ]
+    branches:
+      - dev
 jobs:
   Push-On-Dev-Branch:
     runs-on: ubuntu-latest
