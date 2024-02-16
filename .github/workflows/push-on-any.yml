@@ -1,4 +1,4 @@
-name: Push On ANY Branch 🐧
+name: push-on-any 🐧
 run-name: ${{ github.actor }} push-on-any 🚀
 
 
@@ -7,7 +7,7 @@ on:
     branches: [ "*" ]  # triggers on any push to any branch
 
 jobs:
-  Push-On-ANY-Branch:
+  push-on-any-Branch:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 On ANY brach by a ${{ github.event_name }} event."

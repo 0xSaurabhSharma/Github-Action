@@ -1,11 +1,11 @@
-name: Push On CICD Branch 🐧
+name: cicd-another-workflow Branch 🐧
 run-name: ${{ github.actor }} cicd-another-workflow 🚀
 on:
   push:
     branches:
       - 'cicd/*'
 jobs:
-  Push-On-CICD-Branch:
+  cicd-another-workflow-Branch:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 push on cicd brach ${{ github.event_name }} event."

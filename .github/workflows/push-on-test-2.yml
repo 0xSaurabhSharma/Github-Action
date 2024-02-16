@@ -1,4 +1,4 @@
-name: Push On TEST Branch 🐧
+name: push-on-test-2 🐧
 run-name: ${{ github.actor }} push-on-test-2 🚀
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - cicd
       - '!test/*'
 jobs:
-  Push-On-TEST-Branch:
+  push-on-test-2-Branch:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 Push on test branch by a ${{ github.event_name }} event."
