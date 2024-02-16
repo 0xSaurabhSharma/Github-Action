@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - 'dev'
+      - main
+      - '!test/*'
+      - '!dev'
 jobs:
   Push-On-Dev-Branch:
     runs-on: ubuntu-latest
