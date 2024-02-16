@@ -1,5 +1,5 @@
 name: Push On Dev Branch 🐧
-run-name: ${{ github.actor }} push-on-2 🚀
+run-name: ${{ github.actor }} push-on-dev-2 🚀
 on:
   push:
     branches:
