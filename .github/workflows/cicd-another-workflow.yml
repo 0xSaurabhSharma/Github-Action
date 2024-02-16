@@ -1,5 +1,5 @@
 name: Push On CICD Branch 🐧
-run-name: ${{ github.actor }} is pushing on CICD 🚀
+run-name: ${{ github.actor }} cicd-another-workflow 🚀
 on:
   push:
     branches:

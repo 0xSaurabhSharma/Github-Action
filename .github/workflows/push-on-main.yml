@@ -1,5 +1,5 @@
 name: Push On Main Branch 🐧
-run-name: ${{ github.actor }} is push on main 🚀
+run-name: ${{ github.actor }} push-on-main 🚀
 on:
   push:
     branches: [ main ]

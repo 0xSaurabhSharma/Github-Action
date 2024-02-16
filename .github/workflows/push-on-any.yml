@@ -1,5 +1,5 @@
 name: Push On ANY Branch 🐧
-run-name: ${{ github.actor }} is push on ANY 🚀
+run-name: ${{ github.actor }} push-on-any 🚀
 
 
 on:

@@ -1,5 +1,5 @@
 name: Push On TEST Branch 🐧
-run-name: ${{ github.actor }} is push on TEST 🚀
+run-name: ${{ github.actor }} push-on-test-2 🚀
 on:
   push:
     branches-ignore:
