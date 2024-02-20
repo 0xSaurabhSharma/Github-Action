@@ -1,9 +1,7 @@
 name: testing-test Branch 🐧
 run-name: ${{ github.actor }} testing-test 🚀
 on:
-  push:
-    branches:
-      - dev
+  push
 jobs:
   testing-test-Branch:
     runs-on: ubuntu-latest
