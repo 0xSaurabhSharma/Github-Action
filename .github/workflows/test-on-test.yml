@@ -1,0 +1,11 @@
+name: test-on-test Branch 🐧
+run-name: ${{ github.actor }} test-on-test 🚀
+on:
+  push:
+    branches:
+      - test
+jobs:
+  test-on-test-Branch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Push on dev branch by a ${{ github.event_name }} event."
