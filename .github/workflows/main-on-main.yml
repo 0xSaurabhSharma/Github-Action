@@ -1,15 +1,11 @@
-name: push-on-dev-2 Branch 🐧
-run-name: ${{ github.actor }} push-on-dev-2 🚀
+name: main-on-main Branch 🐧
+run-name: ${{ github.actor }} main-on-main 🚀
 on:
   push:
     branches:
-      - 'dev'
       - main
-      - '!test/*'
-      - '!dev'
 jobs:
-  push-on-dev-2-Branch:
+  main-on-main-Branch:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 Push on dev branch by a ${{ github.event_name }} event."
-
